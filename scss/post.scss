@@ -1,0 +1,63 @@
+// Post SCSS for the theme.
+
+.pagelayout-login #page {
+    background-image: url([[pix:theme_hengoacademy|loginbackgroundimage]]);
+    background-size: cover;
+}
+/*
+body#page-site-index {
+    background-image: url([[pix:theme_hengoacademy|loginbackgroundimage]]);
+    background-position: top left;
+}
+*/
+body {
+    /*background: #008DCF;*/
+}
+
+#usernavigation .usermenu-container .usermenu .login a{
+    font-size: 16px;
+    font-weight: 400;
+    padding: 12px 20px 12px 20px;
+	font-family: "Montserrat", Sans-serif;
+    color: #ffffff;
+    background-color: #1290CB;
+    line-height: 17px;
+}
+
+.elementor-divider {
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.elementor-widget-divider .elementor-widget-container .elementor-divider .elementor-divider-separator {
+    border-top: 4px solid #FF7F26;
+    width: 100px;
+    margin: 0 auto;
+    display: block;
+}
+
+
+.fp-coursebox {
+    max-width: 400px;
+    background: #fff;
+    padding: 9px;
+    margin: 14px auto;
+}
+.fp-coursebox .coursebox-inner {
+    float: left;
+    border: 1px solid #d5d5d5;
+    background-color: #fafafa;
+    padding: 9px;
+    height: 450px;
+}
+.courses .fp-coursebox.coursebox.even {
+    background-color: #fff;
+}
+
+.summarybox {
+    text-align: center;
+    padding-top: 10px;
+}
+.fp-coursebox .content ul.teachers {
+    width: 100%!important;
+}
