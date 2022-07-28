@@ -53,6 +53,15 @@ $THEME->editor_sheets = [];
 // styles and mustache templates and some (not all) settings.
 $THEME->parents = ['boost'];
 
+$THEME->layouts = [
+    // The site home page.
+    'frontpage' => array(
+        'file' => 'frontpage.php',
+        'regions' => array('side-pre', 'side-post', 'frontpage-top'),
+        'defaultregion' => 'side-pre',
+        'options' => array('nonavbar' => true),
+    ),
+];  
 /*
 $THEME->layouts = [
     // The site home page.
